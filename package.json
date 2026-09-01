@@ -1,5 +1,6 @@
 {
-  "name": "with-vite",
+  "name": "convergence",
+  "description": "group travel planning app",
   "private": true,
   "scripts": {
     "build": "turbo run build",
