@@ -31,3 +31,12 @@ This Turborepo has some additional tools already set up for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+
+## Testing
+
+- `pnpm test` runs each package's Vitest suite through Turborepo for granular caching.
+- `pnpm test:projects` runs all suites once through the root Vitest Projects configuration.
+- `pnpm test:projects:watch` watches all projects in one Vitest process.
+- `pnpm report` runs the cached package suites and merges their native Vitest blob reports into one coverage report.
+
+Each package's `vitest.config.ts` is the source of truth for that test project; the root configuration references those files directly.

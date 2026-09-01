@@ -4,6 +4,7 @@ node_modules
 *.log
 dist
 dist-ssr
+coverage
 *.local
 .env
 .cache

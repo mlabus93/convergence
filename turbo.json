@@ -9,6 +9,17 @@
     "lint": {
       "dependsOn": ["^lint"]
     },
+    "test": {
+      "dependsOn": ["transit"],
+      "outputs": ["coverage/blob/**"]
+    },
+    "test:watch": {
+      "cache": false,
+      "persistent": true
+    },
+    "transit": {
+      "dependsOn": ["^transit"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
