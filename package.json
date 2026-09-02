@@ -15,13 +15,13 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@repo/vitest-config": "workspace:*",
-    "@vitest/coverage-v8": "4.1.11",
-    "eslint": "10.9.1",
-    "jsdom": "26.1.0",
-    "prettier": "3.9.6",
+    "@vitest/coverage-v8": "catalog:",
+    "eslint": "catalog:",
+    "jsdom": "catalog:",
+    "prettier": "^3.9.6",
     "turbo": "^2.10.12",
-    "vitest": "4.1.11"
+    "typescript": "catalog:",
+    "vitest": "catalog:"
   },
   "engines": {
     "node": ">=24.20.0"
