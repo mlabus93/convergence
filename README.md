@@ -1,14 +1,6 @@
-# `Turborepo` Vite starter
+# Convergence
 
-This is a community-maintained example. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
-
-## Using this example
-
-Run the following command:
-
-```sh
-pnpm dlx create-turbo@latest -e with-vite
-```
+Group travel planning app built with React, Vite, and Turborepo.
 
 ## What's inside?
 
@@ -16,9 +8,9 @@ This Turborepo includes the following packages and apps:
 
 ### Apps and Packages
 
-- `docs`: a vanilla [Vite](https://vite.dev) TypeScript app
-- `web`: another vanilla [Vite](https://vite.dev) TypeScript app
-- `@repo/ui`: a stub component and utility library shared by both `web` and `docs`
+- `docs`: a React and [Vite](https://vite.dev) TypeScript app
+- `web`: another React and [Vite](https://vite.dev) TypeScript app
+- `@repo/ui`: a React component library shared by both `web` and `docs`
 - `@repo/eslint-config`: shared ESLint configuration
 - `@repo/typescript-config`: shared `tsconfig.json` files
 
