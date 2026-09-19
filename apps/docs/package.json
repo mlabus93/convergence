@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --clearScreen false",
-    "build": "tsc && vite build",
+    "build": "tsc && tsc -p tsconfig.node.json && vite build",
     "preview": "vite preview",
     "lint": "eslint src",
     "test": "vitest run --coverage --coverage.reporter=text --reporter=default --reporter=blob --outputFile.blob=coverage/blob/report.json",
@@ -21,6 +21,7 @@
     "@repo/typescript-config": "workspace:*",
     "@repo/vitest-config": "workspace:*",
     "@testing-library/react": "catalog:",
+    "@types/node": "catalog:",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "@vitejs/plugin-react": "catalog:",
